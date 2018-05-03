@@ -1,7 +1,7 @@
 {
-  "name": "node-beacon-scanner",
-  "version": "0.0.2",
-  "description": "The node-beacon-scanner is a Node.js module which allows you to scan BLE beacon packets and parse the packet data. This module supports iBeacon, Eddystone, and Estimote.",
+  "name": "mechanic-beacon-scanner",
+  "version": "0.0.1",
+  "description": "The mechanic-beacon-scanner is a Node.js module which allows you to scan BLE beacon packets and parse the packet data. This module supports iBeacon, Eddystone, and Estimote.",
   "main": "./lib/scanner.js",
   "files": [
     "lib"
@@ -28,10 +28,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/futomi/node-beacon-scanner.git"
+    "url": "https://github.com/cagdasakar/mechanic-beacon-scanner.git"
   },
   "readmeFilename": "README.md",
   "dependencies": {
-    "noble": ">=1.8.1"
+    "noble": ">=1.9.1"
   }
 }
